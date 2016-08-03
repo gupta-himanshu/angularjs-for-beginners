@@ -41,3 +41,15 @@ from the URL to the same state.
    * **Dependency Injection**: AngularJS has a built-in dependency injection
 subsystem that helps the developer to create,understand, and test the
 applications easily.
+4. The advantages of AngularJS are:
+   * AngularJS provides capability to create Single Page Application in a very clean
+and maintainable way.
+   * AngularJS provides data binding capability to HTML. Thus, it gives user a rich
+and responsive experience.
+   * AngularJS code is unit testable.
+   * AngularJS uses dependency injection and make use of separation of concerns.
+   * AngularJS provides reusable components.
+   * With AngularJS, the developers can achieve more functionality with short
+code.
+   * In AngularJS, views are pure html pages, and controllers written in JavaScript
+do the business processing.
