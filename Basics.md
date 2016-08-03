@@ -53,3 +53,9 @@ and responsive experience.
 code.
    * In AngularJS, views are pure html pages, and controllers written in JavaScript
 do the business processing.
+5. The disadvantages of AngularJS are:
+   * **Not Secure** : Being JavaScript only framework, application written in
+AngularJS are not safe. Server side authentication and authorization is must
+to keep an application secure.
+   * **Not degradable**: If the user of your application disables JavaScript, then
+nothing would be visible, except the basic page.
