@@ -59,3 +59,8 @@ AngularJS are not safe. Server side authentication and authorization is must
 to keep an application secure.
    * **Not degradable**: If the user of your application disables JavaScript, then
 nothing would be visible, except the basic page.
+6. The AngularJS framework can be divided into three major parts:
+   * **ng-app** : This directive defines and links an AngularJS application to HTML.
+   * **ng-model** : This directive binds the values of AngularJS application data to
+HTML input controls.
+   * **ng-bind** : This directive binds the AngularJS application data to HTML tags.
