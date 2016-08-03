@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>AngularJS Controller</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js">
+    </script> 	 
+  </head>
+
+  <body>
+    <h1>AngularJS Sample Application</h1>
+
+    <div ng-app="myApp" ng-controller="studentController">
+      Enter first name: <input type="text"  ng-model="firstname"><br><br>
+      Enter last name: <input type="text" ng-model="lastname"><br>
+	
+      <br>
+      <span>You are entering:</span> {{firstname + " " + lastname}}
+    </div>
+
+    <script>
+	var app = angular.module('myApp', []);
+	app.controller('studentController', function($scope) {
+	    $scope.firstName = "John";
+	    $scope.lastName = "Doe";
+	});
+    </script>
+  </body>
+</html>
